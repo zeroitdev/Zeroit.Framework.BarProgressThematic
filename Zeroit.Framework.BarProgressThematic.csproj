@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D091A418-1060-4336-9049-46A3A4ABF72B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Zeroit.Framework.BarProgressThematic</RootNamespace>
+    <AssemblyName>Zeroit.Framework.BarProgressThematic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\Zeroit.Framework.BarProgressThematic.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\Zeroit.Framework.BarProgressThematic.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ZeroitStrongKeys.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseContainer\BaseContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaseContainer\Enumeration.cs" />
+    <Compile Include="BaseContainer\SmartTag.cs" />
+    <Compile Include="Control\Atrocity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Black.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Butterscotch progress button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\BAW.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\ButterScotch progressbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\ButterScotch Vertical.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Deumos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Drone - v2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\EightBall.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Evolve.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Excision.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Facebook.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Hacker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Imagine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Influence.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Kaspersky.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Jasta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Login progress.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Login Button with progress.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\NS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\PlayUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Ambiance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\AdvancedSystem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\CarbonFibre.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\CypherX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Doom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Drone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Gray.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Green.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Modern.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\NYX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Positron.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Qube.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Reactor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Redemption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Sharp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Simpla.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\Subspace.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\xVisual.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeManagers\Themes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Zeroit.Framework.BarProgressThematic.nuspec" />
+    <None Include="ZeroitStrongKeys.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
