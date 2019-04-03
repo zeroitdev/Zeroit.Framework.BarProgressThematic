@@ -48,6 +48,7 @@ TestResult.xml
 
 # Build Results of JetBrains
 .idea/
+.idea/.idea.Zeroit.Framework.BarProgressThematic/.idea/
 .idea/.idea.Zeroit.Framework.BarProgressThematic/.idea/workspace.xml
 .idea/.idea.Zeroit.Framework.BarProgressThematic/.idea/contentModel.xml
 .idea/.idea.Zeroit.Framework.BarProgressThematic/.idea/encodings.xml
