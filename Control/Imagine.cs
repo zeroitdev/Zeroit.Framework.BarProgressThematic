@@ -59,10 +59,11 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
-            
+            G.SmoothingMode = SmoothingMode.HighQuality;
+            G.Clear(Parent.BackColor);
             dynamic progressWidth = Convert.ToInt32(Value * (1 / Maximum) * Width);
             
-            G.Clear(Parent.BackColor);
+            
             HatchBrush HB = new HatchBrush(HatchStyle.BackwardDiagonal, Color.FromArgb(15, Color.LightBlue), Color.Transparent);
             G.FillRectangle(new SolidBrush(Prog), 0, 0, progressWidth, Height);
             G.FillRectangle(HB, new Rectangle(0, 0, progressWidth, Height));

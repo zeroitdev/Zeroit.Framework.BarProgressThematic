@@ -108,10 +108,11 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
-            
+            G.Clear(Parent.BackColor);
+
             int intValue = Convert.ToInt32(Value * (1 / Maximum) * Width);
             
-            //G.Clear(Parent.BackColor);
+            
 
             LinearGradientBrush gB = new LinearGradientBrush(new Rectangle(0, 0, Width - 1, Height - 1), Color.FromArgb(16, 16, 16), Color.FromArgb(22, 22, 22), 90);
             G.FillPath(gB, Draw.RoundRect(new Rectangle(0, 0, Width - 1, Height - 1), 2));

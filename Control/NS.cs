@@ -59,8 +59,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
-
-            //G.Clear(Parent.BackColor);
+            G.Clear(Parent.BackColor);
             
             GraphicsPath GP1 = Draw.CreateRound(0, 0, Width - 1, Height - 1, 7);
             GraphicsPath GP2 = Draw.CreateRound(1, 1, Width - 3, Height - 3, 7);

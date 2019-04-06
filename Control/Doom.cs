@@ -71,7 +71,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         private void DoomPaintHook(PaintEventArgs e)
         {
             Graphics G = e.Graphics;
-
+            G.SmoothingMode = SmoothingMode.HighQuality;
+            G.Clear(Parent.BackColor);
             //G.Clear(Color.Black);
             //Border
             Rectangle left = new Rectangle(0, 0, 60, Height - 1);

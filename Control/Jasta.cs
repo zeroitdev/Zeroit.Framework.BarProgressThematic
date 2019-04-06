@@ -65,6 +65,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
+            G.Clear(Parent.BackColor);
             dynamic progressWidth = Convert.ToInt32(Value * (1 / Maximum) * Width);
             
             //G.Clear(jBack);

@@ -51,7 +51,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
-            //G.Clear(Parent.BackColor);
+            G.Clear(Parent.BackColor);
 
             DrawGradients(G,Color.Black, Color.FromArgb(40, 40, 40), 0, 0, Width, Height, 2);
 

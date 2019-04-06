@@ -104,6 +104,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
+            G.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             G.Clear(deumosC1);
             DrawGradient(deumosC2, deumosC3, 0, 0, Width, Height / 2);
 

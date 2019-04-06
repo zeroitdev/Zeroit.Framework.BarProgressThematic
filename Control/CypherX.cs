@@ -82,6 +82,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         private void CypherXOnPaint(PaintEventArgs e)
         {
             Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            g.Clear(Parent.BackColor);
 
             Rectangle WholeR = new Rectangle(0, 0, Width - 1, Height - 1);
             Draw.Gradient(g, _Lightcolor, _DarkColor, WholeR);

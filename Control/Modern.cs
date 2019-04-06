@@ -73,7 +73,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
-
+            G.Clear(Parent.BackColor);
             Draw.Gradient(G, modernC2, modernC3, 1, 1, Width - 2, Height - 2);
             G.DrawRectangle(new Pen(modernC2), 1, 1, V - 3, Height - 3);
             Draw.Gradient(G, modernC3, modernC2, 2, 2, V - 4, Height - 4);

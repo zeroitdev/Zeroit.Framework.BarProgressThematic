@@ -70,6 +70,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap b = new Bitmap(Width, Height);
             Graphics g = e.Graphics;
             g.SmoothingMode = Smoothing;
+            g.Clear(Parent.BackColor);
             g.TextRenderingHint = TextRendering;
 
 
@@ -77,7 +78,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             dynamic Fill = Convert.ToInt32(Value * (1 / Maximum) * Width) - 1;
             
             
-            //g.Clear(Parent.BackColor);
+            
 
             g.FillPath(new SolidBrush(Color.FromArgb(49, 50, 54)), Draw.RoundRect(new Rectangle(0, 0, Width - 1, Height - 1), curve));
             Color[] GradientPen = {

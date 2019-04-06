@@ -53,8 +53,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
-
-            //G.Clear(Color.FromArgb(22, 22, 22));
+            G.Clear(Color.FromArgb(22, 22, 22));
             //Background
 
             ColorBlend bar_cblend = new ColorBlend()

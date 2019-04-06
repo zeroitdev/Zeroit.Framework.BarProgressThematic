@@ -154,6 +154,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
+            G.Clear(Parent.BackColor);
            
             Rectangle Base = new Rectangle(0, 0, Width, Height);
             G.TextRenderingHint = TextRendering;

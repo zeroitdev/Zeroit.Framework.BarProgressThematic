@@ -104,11 +104,11 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
-
             G.SmoothingMode = Smoothing;
+            G.Clear(Parent.BackColor);
 
             int intValue = Convert.ToInt32(Value / Maximum * Width);
-            //G.Clear(Parent.BackColor);
+            
 
             SolidBrush percentColor = new SolidBrush(Color.White);
 

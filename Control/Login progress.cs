@@ -156,7 +156,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             G.TextRenderingHint = TextRendering;
             G.SmoothingMode = SmoothingMode.HighQuality;
             G.PixelOffsetMode = PixelOffsetMode.HighQuality;
-            //G.Clear(Parent.BackColor);
+            G.Clear(Parent.BackColor);
 
             int ProgVal = Convert.ToInt32(Value * (1 / Maximum) * Width);
 

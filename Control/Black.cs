@@ -142,7 +142,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
-
+            G.Clear(Parent.BackColor);
             DrawBorders(new Pen(blackP1), 1);
             G.FillRectangle(new SolidBrush(blackB1), 0, 0, Width, 8);
 

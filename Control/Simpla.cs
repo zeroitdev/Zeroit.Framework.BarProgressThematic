@@ -153,10 +153,11 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
+            G.Clear(Parent.BackColor);
 
             int intValue = Convert.ToInt32(Value / Maximum * Width);
 
-            G.Clear(Parent.BackColor);
+            
             
             G.DrawPath(new Pen(new SolidBrush(Color.FromArgb(26, 26, 26))), Draw.RoundRect(new Rectangle(1, 1, Width - 3, Height - 3), 2));
 

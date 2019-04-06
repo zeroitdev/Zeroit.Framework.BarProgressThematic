@@ -80,7 +80,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap b = new Bitmap(Width, Height);
             Graphics g = e.Graphics;
             g.SmoothingMode = Smoothing;
-            //g.Clear(Parent.BackColor);
+            g.Clear(Parent.BackColor);
 
             int slope = 6;
 

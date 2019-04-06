@@ -53,12 +53,15 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap b = new Bitmap(Width, Height);
             Graphics g = e.Graphics;
+            g.SmoothingMode = SmoothingMode.HighQuality;
+            g.Clear(BackColor);
+
             int percent = Convert.ToInt32((Width - 1) * (Value / Maximum));
             Rectangle outerrect = new Rectangle(0, 0, Width - 1, Height - 1);
             Rectangle maininnerrect = new Rectangle(7, 7, Width - 15, Height - 15);
             Rectangle innerrect = new Rectangle(4, 4, percent - 9, Height - 9);
-            //g.Clear(BackColor);
-            g.SmoothingMode = SmoothingMode.HighQuality;
+            
+            
             g.FillPath(new SolidBrush(Color.FromArgb(40, 37, 33)), Draw.RoundRect(outerrect, 5));
             g.DrawPath(new Pen(Color.FromArgb(0, 0, 0)), Draw.RoundRect(outerrect, 5));
             g.FillPath(new SolidBrush(Color.FromArgb(26, 25, 21)), Draw.RoundRect(maininnerrect, 3));

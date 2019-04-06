@@ -73,8 +73,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
-
-            //G.Clear(Parent.BackColor);
+            G.Clear(Parent.BackColor);
 
             float Percent = (float)this.Value / (float)this._Maximum * 100;
 

@@ -242,7 +242,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             Graphics G = e.Graphics;
             G.SmoothingMode = SmoothingMode.HighQuality;
 
-            //G.Clear(Color.FromArgb(43, 53, 63));
+            G.Clear(Color.FromArgb(43, 53, 63));
             //   -------------------Draw Background for the MBProgressBar--------------------
 
             LinearGradientBrush s2 = new LinearGradientBrush(new Rectangle(0, 2, Width - 3, 50), Color.FromArgb(35, 45, 55), Color.FromArgb(50, Color.White), 90);

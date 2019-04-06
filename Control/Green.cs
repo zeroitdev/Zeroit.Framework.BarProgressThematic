@@ -207,7 +207,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
-
+            G.SmoothingMode = SmoothingMode.HighQuality;
             R1 = new Rectangle(0, 1, Width, 4);
 
             dynamic progressWidth = Convert.ToInt32(Value * (1 / Maximum) * Width);

@@ -52,7 +52,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
-            //G.Clear(Parent.BackColor);
+            G.SmoothingMode = SmoothingMode.HighQuality;
+            G.Clear(Parent.BackColor);
             //Border
             Rectangle left = new Rectangle(0, 0, 60, Height - 1);
             LinearGradientBrush leftLGB = new LinearGradientBrush(left, Color.FromArgb(255, 32, 32, 32), Color.FromArgb(100, Color.White), 180f);
