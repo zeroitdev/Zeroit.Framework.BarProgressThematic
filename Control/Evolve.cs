@@ -56,7 +56,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             
             G.SmoothingMode = Smoothing;
 
-            //G.Clear(Parent.BackColor);
+            G.Clear(Parent.BackColor);
 
             LinearGradientBrush Gbrush = new LinearGradientBrush(new Rectangle(new Point(6, 0), new Size(Width - 6, 10)), Color.FromArgb(10, 10, 10), Color.FromArgb(47, 47, 47), 90f);
             G.FillRectangle(Gbrush, new Rectangle(new Point(6, 0), new Size(Width - 12, 10)));

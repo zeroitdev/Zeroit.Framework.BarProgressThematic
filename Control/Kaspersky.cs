@@ -54,7 +54,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
             Graphics G = e.Graphics;
             G.SmoothingMode = Smoothing;
 
-            //G.Clear(Parent.BackColor);
+            G.Clear(Parent.BackColor);
 
             int progressWidth = Convert.ToInt32(Math.Truncate((Value / Maximum) * this.Width));
 

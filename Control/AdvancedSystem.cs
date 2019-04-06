@@ -220,10 +220,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
-            //G.SmoothingMode = Smoothing;
-
-            
-            //G.Clear(Parent.BackColor);
+            G.SmoothingMode = Smoothing;
+            G.Clear(Parent.BackColor);
 
             int slope = 3;
 

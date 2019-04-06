@@ -56,10 +56,10 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         /// The butter
         /// </summary>
         Butter,
-        /// <summary>
-        /// The butter but
-        /// </summary>
-        ButterBut,
+        ///// <summary>
+        ///// The butter but
+        ///// </summary>
+        //ButterBut,
         /// <summary>
         /// The butter vertical
         /// </summary>

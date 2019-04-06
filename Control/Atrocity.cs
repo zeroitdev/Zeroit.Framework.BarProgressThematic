@@ -76,7 +76,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         {
             //Bitmap B = new Bitmap(Width, Height);
             Graphics G = e.Graphics;
-            //G.Clear(Parent.BackColor);
+            G.SmoothingMode = SmoothingMode.HighQuality;
+            G.Clear(Parent.BackColor);
 
             //DrawGradient(atrocityGRAD1, atrocityGRAD2, 0, 0, CInt(_Value / _Maximum * Width) - 1, Height - 1, -90S)
             G.FillRectangle(new SolidBrush(atrocityGRAD1), 0, 0, Convert.ToInt32(_value / _Maximum * Width) - 1, Height - 1);

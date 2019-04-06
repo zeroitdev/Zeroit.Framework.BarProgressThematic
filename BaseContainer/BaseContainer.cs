@@ -237,8 +237,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
                         break;
                     case ProgressStyles.Butter:
                         break;
-                    case ProgressStyles.ButterBut:
-                        break;
+                    //case ProgressStyles.ButterBut:
+                    //    break;
                     case ProgressStyles.ButterVertical:
                         break;
                     case ProgressStyles.Carbon:
@@ -343,8 +343,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
                         break;
                     case ProgressStyles.Butter:
                         break;
-                    case ProgressStyles.ButterBut:
-                        break;
+                    //case ProgressStyles.ButterBut:
+                    //    break;
                     case ProgressStyles.ButterVertical:
                         break;
                     case ProgressStyles.Carbon:
@@ -465,8 +465,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
                         break;
                     case ProgressStyles.Butter:
                         break;
-                    case ProgressStyles.ButterBut:
-                        break;
+                    //case ProgressStyles.ButterBut:
+                    //    break;
                     case ProgressStyles.ButterVertical:
                         break;
                     case ProgressStyles.Carbon:
@@ -650,8 +650,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
                 case ProgressStyles.Butter:
                     ButterOnPaint(e);
                     break;
-                case ProgressStyles.ButterBut:
-                    break;
+                //case ProgressStyles.ButterBut:
+                //    break;
                 case ProgressStyles.ButterVertical:
                     ButterVertOnPaint(e);
                     break;
@@ -776,8 +776,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
                     break;
                 case ProgressStyles.Butter:
                     break;
-                case ProgressStyles.ButterBut:
-                    break;
+                //case ProgressStyles.ButterBut:
+                //    break;
                 case ProgressStyles.ButterVertical:
                     break;
                 case ProgressStyles.Carbon:
@@ -870,8 +870,8 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
                     break;
                 case ProgressStyles.Butter:
                     break;
-                case ProgressStyles.ButterBut:
-                    break;
+                //case ProgressStyles.ButterBut:
+                //    break;
                 case ProgressStyles.ButterVertical:
                     break;
                 case ProgressStyles.Carbon:
@@ -1405,9 +1405,7 @@ namespace Zeroit.Framework.BarProgressThematic.Controls
         }
 
         #endregion
-
-
-
+        
 
         #region Include in Private Field
 
