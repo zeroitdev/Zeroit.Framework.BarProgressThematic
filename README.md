@@ -1,4 +1,4 @@
-![]()
+![](<https://github.com/zeroitdev/Zeroit.Framework.BarProgressThematic/blob/master/Preview/Preview.PNG>)
 
 
 
